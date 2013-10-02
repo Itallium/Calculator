@@ -1,6 +1,3 @@
-import java.io.BufferedReader
-import java.io.InputStreamReader
-
 fun main(args: Array<String>) {
     println("This Calculator developed by Kotlin language from Itallium.")
     if(args.size == 0) {
@@ -11,19 +8,18 @@ fun main(args: Array<String>) {
     val x = Integer.parseInt(args[0])
     val y = Integer.parseInt(args[2])
     val action = args[1].toString()
-    if (action.equals("+")) {
-        println("${x} + ${y} = ${x + y}")
-    } else if (action.equals("-")) {
-        println("${x} - ${y} = ${x - y}")
-    } else if (action.equals("*")) {
-        println("${x} * ${y} = ${x * y}")
-    } else if (action.equals("/")) {
+    println(when (action) {
+        "+" -> "\n${x} + ${y} = ${x + y}"
+        "-" -> "\n${x} - ${y} = ${x - y}"
+        "*" -> "\n${x} * ${y} = ${x * y}"
+        "/" -> ""
+        else -> "Second command-line`s argument not valid."
+    })
+    if (action.equals("/")) {
         if (y == 0) {
             println("Second number should not be zero!");
             return
         }
         println("${x} / ${y} = ${x / y}")
-    } else {
-        println("Second command-line`s argument not valid.")
     }
 }

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0279a274-9c27-4aa5-9089-67b1f7b89ee1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.kt" afterPath="$PROJECT_DIR$/src/main.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Calculator.iws" />
@@ -373,6 +371,11 @@
       <created>1380696983554</created>
       <updated>1380696983554</updated>
     </task>
+    <task id="LOCAL-00001" summary="Project is done.">
+      <created>1380700165434</created>
+      <updated>1380700165434</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -411,6 +414,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Project is done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Project is done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
